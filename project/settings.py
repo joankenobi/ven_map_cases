@@ -27,7 +27,9 @@ SECRET_KEY = 'django-insecure-nc_(!l-dg^oi9#6i&)1u!f0)opxal!ii#w$emc=yop&z!uiy*s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "ven-map-cases.onrender.com",
+]
 
 
 # Application definition
