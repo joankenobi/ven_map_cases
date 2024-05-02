@@ -28,10 +28,9 @@ SECRET_KEY = 'django-insecure-nc_(!l-dg^oi9#6i&)1u!f0)opxal!ii#w$emc=yop&z!uiy*s
 DEBUG = "RENDER" not in os.environ
 
 ALLOWED_HOSTS = [
-    "127.0.0.1",
+    "*",
 ] if DEBUG else [
-    "ven-map-cases.onrender.com",
-    "http://0.0.0.0",
+    "*",
     ]
 
 
